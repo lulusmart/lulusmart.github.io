@@ -84,11 +84,15 @@
         return decodeURIComponent(results[2].replace(/\+/g, " "));
       }
 
+      function encodeHTML(s) {
+        return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+      }
+
       var code = getParameterByName('code');
       if (code) {
         var element = document.getElementById("checker_code");
         if (element) {
-          element.innerHTML = code;
+          element.innerHTML = encodeHTML(code);
         }
       }
     </script>
