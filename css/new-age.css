@@ -154,7 +154,7 @@ header.masthead {
         text-align: center!important;
       }
       section.cta {
-        background-image: url("../img/footImgsm.png")!important;
+        background-image: url("../img/footImgsm.jpg")!important;
       }
     }
     header.masthead .device-container .screen img {
@@ -232,7 +232,7 @@ section.features .feature-item {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/footImg.png");
+  background-image: url("../img/footImg.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
