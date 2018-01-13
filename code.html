@@ -35,9 +35,6 @@
           letter-spacing: 2px;
           color: #5e5959;
         }
-        .short_section {
-          padding: 20px 0 !important;
-        }
         .brand {
           text-decoration: none;
           width: 280px;
@@ -74,8 +71,32 @@
           position: relative; top: 2px;
           font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
         }
-        .badge-link-code img{
-          height: 70px!important;
+        @media (min-width: 330px) {
+          .badge-link-code img{
+            height: 70px!important;
+          }
+          .short_section {
+            padding: 20px 0 !important;
+          }
+        }
+        @media (max-width: 320px) {
+          .head_text {
+            width: 200px;
+            font-size: 13px;
+          }
+          .code_img {
+            height: 70px;
+          }
+          .code_text {
+            font-size: 15px;
+          }
+          .checker_code {
+            font-size: 28px;
+            margin-top: 0;
+          }
+          .short_section {
+            padding: 10px 0 !important;
+          }
         }
       </style>
     </head>
