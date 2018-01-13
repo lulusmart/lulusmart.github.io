@@ -58,7 +58,7 @@ section {
   font-weight: 200;
   letter-spacing: 1px; }
   #mainNav .navbar-brand {
-    color: #fdcc52;
+    color: #000;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     letter-spacing: 1px; }
@@ -69,9 +69,9 @@ section {
     padding: 8px 10px;
     color: #222222; }
   #mainNav .navbar-nav > li > a {
-    font-size: 11px;
+    font-size: 14px;
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     text-transform: uppercase; }
     #mainNav .navbar-nav > li > a.active {
       color: #fdcc52 !important;
@@ -89,7 +89,7 @@ section {
       background-color: rgba(0, 0, 0, 0.6);
       border-color: transparent; }
       #mainNav .navbar-brand {
-        color: fade(white, 70%); }
+        color: white }
         #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
           color: white; }
       #mainNav .navbar-nav > li > a,
@@ -121,7 +121,6 @@ header.masthead {
   background: url(../img/house.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;}
   header.masthead .header-content {
     max-width: 500px;

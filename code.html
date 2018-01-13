@@ -20,10 +20,20 @@
         body {
           font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
         }
+        .head {
+          position: relative;
+          width: 100%;
+          color: white;
+          background: url(./img/background_code.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
         .checker_code {
-          font-size: 30px;
-          font-weight: 700;
+          font-size: 34px;
+          font-weight: 400;
           letter-spacing: 2px;
+          color: #5e5959;
         }
         .short_section {
           padding: 20px 0 !important;
@@ -34,9 +44,28 @@
           margin: 30px auto 0 auto;
           text-align:center;
         }
-        .brand_logo {
+        .head_img {
           display:inline-block;
-          height: 60px
+          height: 100px;
+        }
+        .head_text {
+          display: inline-block;
+          width: 250px;
+          font-size: 17px;
+        }
+        .brand_logo {
+          display: inline-block;
+          height: 90px;
+          padding-left: 30px;
+          margin-bottom: 10px;
+        }
+        .code_text {
+          font-size: 20px;
+          color: #5e5959;
+          margin: 10px 0;
+        }
+        .code_img {
+          height: 100px;
         }
         .brand_text {
           font-size: 30px;
@@ -45,24 +74,30 @@
           position: relative; top: 2px;
           font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
         }
+        .badge-link-code img{
+          height: 70px!important;
+        }
       </style>
     </head>
     <body id="page-top" >
 
-      <div class="brand">
+      <div class="head">
         <a href="index.html">
-          <img src="AppIcon.png" class="brand_logo"/>
-          <span class="brand_text">LuluCheck</span>
+          <img src="AppIcon_code.png" class="brand_logo"/>
         </a>
+        <div>
+          <img src="banner_left.png" class="head_img"/>
+          <p class="head_text">Please download LuluCheck APP and enter the cecker code below</p>
+        </div>
       </div>
 
       <section class="text-center short_section">
         <div class="container">
           <div class="row">
             <div class="col-md-12 mx-auto">
-              <p>Your Checker Code</p>
+              <img src="code_friend.png" class="code_img"/>
+              <p class="code_text">Your Private Checker Code</p>
               <h3 class="checker_code" id="checker_code"></h3>
-              <p>Download LuluCheck app and enter the above checker code</p>
             </div>
           </div>
         </div>
@@ -73,8 +108,8 @@
           <div class="row">
             <div class="col-md-12 mx-auto">
               <div class="badges">
-                <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-                <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
+                <a class="badge-link badge-link-code" href="#"><img src="img/google-play-badge.svg" alt=""></a>
+                <a class="badge-link badge-link-code" href="#"><img src="img/app-store-badge.svg" alt=""></a>
               </div>
             </div>
           </div>
