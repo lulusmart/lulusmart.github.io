@@ -134,6 +134,30 @@ header.masthead {
     max-width: 325px;
     margin-right: auto;
     margin-left: auto; }
+    @media (max-width: 768px) {
+      header.masthead .device-container {
+        display: none;
+      }
+      header.masthead .header-content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+      header.masthead .header-content h1 {
+        font-size: 40px; }
+      .btn-xl {
+        font-size: 15px!important;
+      }
+      section.features .section-heading {
+        margin-bottom: 30px!important;
+      }
+      .right-text {
+        text-align: center!important;
+      }
+      section.cta {
+        background-image: url("../img/footImgsm.png")!important;
+      }
+    }
     header.masthead .device-container .screen img {
       border-radius: 3px; }
   @media (min-width: 992px) {
