@@ -28,6 +28,14 @@ hr {
 hr.light {
   border-color: white; }
 
+.intro-header {
+  font-weight: 700;
+}
+
+.intro-text {
+  font-size: 30px;
+}
+
 h1,
 h2,
 h3,
