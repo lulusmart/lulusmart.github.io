@@ -30,10 +30,12 @@ hr.light {
 
 .intro-header {
   font-weight: 700;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .4);
 }
 
 .intro-text {
   font-size: 30px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .4);
 }
 
 h1,
@@ -369,4 +371,13 @@ footer {
   color: #bbb;
   font-size: 32px;
   margin: 0 15px 0 15px;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
