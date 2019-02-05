@@ -346,3 +346,19 @@ footer {
 .burger-padding {
   padding-left: 3px;
 }
+
+.contact-section {
+  margin: 30px 0 30px 0;
+}
+
+.contact-us {
+  color: #bbb;
+  margin-top: 50px;
+  font-size: 32px;
+}
+
+.social {
+  color: #bbb;
+  font-size: 32px;
+  margin: 0 15px 0 15px;
+}
